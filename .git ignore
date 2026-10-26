@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+# Environment & Secrets
+.env
+*.env
+config/secrets.yml
+credentials.json
+# Data files — never commit large data
+*.csv
+*.parquet
+*.xlsx
+data/raw/
+data/processed/
+# IDE
+.vscode/
+.idea/
+# Logs
+*.log
+logs/
